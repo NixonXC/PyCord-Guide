@@ -1,0 +1,72 @@
+body {
+    background-color: #38383d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    color: #ededf0;
+}
+.main h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 420%;
+}
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #303030;
+}
+  
+.nav-item {
+    float: left;
+}
+  
+.nav-item .nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.nav-item .nav-link:hover {
+    background-color: #202020;
+}
+
+.brand {
+  text-align: center;
+}
+
+.installcommand {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.note {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+  .main{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      color: #ededf0;
+  }
+}
+.pipinstruction {
+    font-family: Consolas,"courier new";
+    color: #5865f2;
+    background-color: #27282E;
+    padding: 2px;
+    font-size: 100%;
+}
