@@ -7,6 +7,10 @@ body {
     text-align: center;
     color: #ededf0;
 }
+.main h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 420%;
+}
 .main img {
     display: block;
     margin-left: auto;
@@ -51,4 +55,27 @@ li a:hover {
 .iecode {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.codeblock2 code {
+    background-color: #38383d;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    color: #fff;
+}
+.snippet .name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ededf0;
+}
+.snippet .codepy{
+    color: greenyellow;
+}
+.lang {
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.exie {
+    color: #f1f1f1;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

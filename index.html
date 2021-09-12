@@ -3,9 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>PyCord Unofficial Docs</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -27,12 +28,43 @@
 
         <div class="codeblock">
             <h2>Steps:</h2>
-            <h4>First You need to uninstall discord.py</h4>
+            <p>First You need to uninstall discord.py</p>
             <p><code>1. pip uninstall discord</code></p>
             <p><code>2. pip uninstall discord.py</code></p>
             <p><code>3. pip install py-cord</code></p>
-            <h4>Now you have sucessfully installed py-cord</h4>
+            <h4>Now you have sucessfully installed PyCord!</h4>
+        
         </div>
+
+        <div class="exie">
+            <p>Quick Example of a bot made with Pycord</p>
+            <script src="https://gist.github.com/NixonXC/1b7d3a4c64ce56a1888d9183eb16dabe.js"></script>
+
+        </div>
+
+        <div class="snippet">
+            <details>
+              <summary><span class="name">A Quick Simple Bot i.e</span> <span class="lang">[Pycord]</span></summary>
+              <pre><code class="codepy">
+                import discord
+                from discord.ext import commands 
+                
+                client = commands.Bot(comand_prefix='bot prefix here') # You can choose your own prefix here
+                
+                @client.event()
+                async def on_ready(): # When the bot starts
+                    print(f"Bot online and logged in as {client.user}")
+                
+                # A simple command
+                @client.command()
+                async def ping(ctx): # a_variable is a parameter you use in the command
+                    await ctx.send(f"Pong! {round(client.latency * 1000)}ms")
+                
+                client.run('your token here') # Running the bot
+          </code></pre>
+            </details>
+          </div> 
+
         <script src="script.js" async defer></script>
     </body>
 </html>
