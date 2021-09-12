@@ -42,29 +42,6 @@
 
         </div>
 
-        <div class="snippet">
-            <details>
-              <summary><span class="name">A Quick Simple Bot i.e</span> <span class="lang">[Pycord]</span></summary>
-              <pre><code class="codepy">
-                import discord
-                from discord.ext import commands 
-                
-                client = commands.Bot(comand_prefix='bot prefix here') # You can choose your own prefix here
-                
-                @client.event()
-                async def on_ready(): # When the bot starts
-                    print(f"Bot online and logged in as {client.user}")
-                
-                # A simple command
-                @client.command()
-                async def ping(ctx): # a_variable is a parameter you use in the command
-                    await ctx.send(f"Pong! {round(client.latency * 1000)}ms")
-                
-                client.run('your token here') # Running the bot
-          </code></pre>
-            </details>
-          </div> 
-
         <script src="script.js" async defer></script>
     </body>
 </html>
