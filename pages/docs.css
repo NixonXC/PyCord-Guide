@@ -1,0 +1,35 @@
+body {
+    background-color: #38383d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+.navli {
+    float: left;
+}
+  
+.navli a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.navli a:hover {
+    background-color: rgb(67, 220, 20);
+    color: black;
+}
+
+.navli #active {
+    background-color: rgb(67, 220, 20);
+    color: black;
+}
