@@ -21,7 +21,7 @@ body {
     text-align: center;
     color: #ededf0;
 }
-ul {
+.navul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -29,11 +29,11 @@ ul {
     background-color: #333;
 }
   
-li {
+.navli {
     float: left;
 }
   
-li a {
+.navli a {
     display: block;
     color: white;
     text-align: center;
@@ -42,12 +42,12 @@ li a {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
   
-li a:hover {
+.navli a:hover {
     background-color: rgb(67, 220, 20);
     color: black;
 }
 
-#active {
+.navli #active {
     background-color: rgb(67, 220, 20);
     color: black;
 }
