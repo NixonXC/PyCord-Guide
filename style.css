@@ -46,6 +46,12 @@ li a:hover {
     background-color: rgb(67, 220, 20);
     color: black;
 }
+
+#active {
+    background-color: rgb(67, 220, 20);
+    color: black;
+}
+
 .exie {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
